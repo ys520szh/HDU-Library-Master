@@ -8,12 +8,12 @@ class ConfigParser():
         self.template = """
 data:
   query_data:
-    beginTime: null
-    duration: null
-    num: '1'
-    space_category[category_id]: '591'
+    beginTime: 8
+    duration: 14
+    num: '196'
+    space_category[category_id]: '1524'
     space_category[content_id]: '3'
-planCode: []
+planCode: [2:1524:196:8:14]
 session:
   headers:
     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101
@@ -30,9 +30,9 @@ urls:
   index: https://hdu.huitu.zhishulib.com/
   index: https://hdu.huitu.zhishulib.com/
 user_info:
-  login_name: 
+  login_name: 20081822
   org_id: '104'
-  password: 
+  password: 20081822
 plans: []
 job:
   maxTrials:
